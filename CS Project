@@ -14,6 +14,7 @@ int countSteps(int goal , int y);
 int secondPart(int z,int steps,int* goal);
 void PlayAgain(int press);
 
+/**___________________Reminder starts here____________________________**/
 int count[60]={0};
 void current_time(){
     time_t  now;
