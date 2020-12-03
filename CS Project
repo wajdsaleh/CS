@@ -208,7 +208,7 @@ int main(){
     scanf("%d",&press);
     PlayAgain(press);
     to_do_list();
-    reminder(my_clock(4));//alarme to sleep
+    reminder(my_clock(3));//alarme to sleep
     return 0;
 }
 char *fullCourse (char r){ // Display full name of course:
