@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void averageMarks(int marks[][2],int n){
+void average(int marks[][2],int n){
 
     float sum = 0; char g;
     for(int i=0;i<n;++i) sum += marks[i][1];
@@ -47,11 +47,11 @@ int main(){
         {41,8},{42,33},{43,5},{44,35},{45,25},{46,29},{47,31},{48,13},{49,17},{50,42}
         };
     int c1=0,c2=0,c3=0,c4=0,c5=0,c6=0,c7=0,c8=0,c9=0,c10=0;
-    
+
     printf("The grade is:\n");
     printGrades(marks,n);
     printf("================================================ \n");
-    
+
     for (int i = 0; i < n; ++i){
         if (marks[i][1] >= 45 && marks[i][1] <= 50) c1++;
         else if(marks[i][1]>=40&&marks[i][1]<=44) c2++;
@@ -77,7 +77,7 @@ int main(){
     printf("\nThe number of students between (4-0)is: %d\n",c10);
     printf("================================================\n");
 
-    averageMarks(marks,n);
+    average(marks,n);
     addBonus(marks,n,5);
     sort(marks,n);
     printf("================================================ \n");
