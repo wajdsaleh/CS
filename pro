@@ -30,6 +30,9 @@ void sort(int grades[][2],int n) {
             }
         }
     }
+     printf("\nThe grade after adding bouns and sorting:\n");
+    for(int i = 0; i < n; ++i)
+        printf("student id %d:\t   Grade %d\n", grades[i][0],grades[i][1]);
 }
 
 void printGrades(int grades[][2], int n){
@@ -78,11 +81,9 @@ int main(){
     printf("================================================\n");
 
     average(marks,n);
+    printf("================================================ \n");
     addBonus(marks,n,5);
     sort(marks,n);
-    printf("================================================ \n");
-    printf("\nThe grade after adding bouns and sorting:\n");
-    printGrades(marks,n);
     printf("================================================ \n");
 
     // Binary search:
