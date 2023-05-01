@@ -4,7 +4,7 @@ A project for CS181 course, presented to Dr. Abeer Alhujaylan, the software deve
 ## Project idea
 The projectis based on team work, each group consists of 4 students each student will program a part then we integrated it  as one program, parts of project are :
 
-1.Study Time:
+1.Study Time **(Which I programmed)**:
    * Design a schedule that helps you to study for five hours a day. Each day you will study five courses, starting from Sunday till Saturday. Also, the code answer you’re inquiries about the course that will be studied according to the specific day and time in each time you want to know. 
 
 2.Sport time: 
@@ -17,7 +17,7 @@ numbers.
        * The player who reaches the number 20 is the winner and is congratulated by typing 
 the following sentence: “Congratulations! The first / second player is the winner!”   
        
-4.Creative time **(Which I programed)**:
+4.Creative time:
 
    * The teacher left the idea of this question to us to thinking about it so, I design REMINDER AND TO DO LIST.
    * Everyday we plan to how our day will be and what the tasks that we must do, so I write a program (reminder) that’s help us to plan our day and at the end we check what we have finished .
