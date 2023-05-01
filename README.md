@@ -19,8 +19,8 @@ the following sentence: “Congratulations! The first / second player is the win
        
 4.Creative time:
 
-   * The teacher left the idea of this question to us to thinking about it so, I design REMINDER AND TO DO LIST.
-   * Everyday we plan to how our day will be and what the tasks that we must do, so I write a program (reminder) that’s help us to plan our day and at the end we check what we have finished .
+* The doctor left the idea of this question to us to think about, so Wesam designed a REMINDER AND TO-DO LIST.
+* Every day we plan how our day will be, and what tasks we must do, so Wesam writes a code that helps us to plan our day and at the end we check what we have finished.
    
    ## Output Samples 
    
